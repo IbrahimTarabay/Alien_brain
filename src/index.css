@@ -12,7 +12,8 @@ body {
   /*background: linear-gradient(to right, rgb(17, 17, 17), rgb(74, 53, 62));*//*move*/
   /*background: linear-gradient(to right, rgb(20, 20, 20), rgb(89, 79, 89));*//*blue*/
   /*background: linear-gradient(to right, rgb(31, 31, 31), rgb(154, 48, 29));*//*red*/
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+  /*background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));*/
+  background:linear-gradient(to right, rgb(27, 39, 29), rgb(22, 39, 28));
 }
 
 code {
