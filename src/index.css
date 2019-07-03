@@ -10,10 +10,11 @@ body {
   /* background:linear-gradient(to right, rgb(21, 21, 21), rgb(169, 145, 86));*//*orange*/
   /*background: linear-gradient(to right, rgb(21, 21, 21), rgb(137, 114, 92));*//*move*/
   /*background: linear-gradient(to right, rgb(17, 17, 17), rgb(74, 53, 62));*//*move*/
-  /*background: linear-gradient(to right, rgb(20, 20, 20), rgb(89, 79, 89));*//*blue*/
+  background: linear-gradient(to right, rgb(20, 20, 20), rgb(89, 79, 89));/*blue*/
+  /*rgba(0, 0, 0, 0) linear-gradient(to right, rgb(95, 125, 79), rgb(126, 206, 193))*/
   /*background: linear-gradient(to right, rgb(31, 31, 31), rgb(154, 48, 29));*//*red*/
   /*background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));*/
-  background:linear-gradient(to right, rgb(27, 39, 29), rgb(22, 39, 28));
+  /*background:linear-gradient(to right, rgb(27, 39, 29), rgb(22, 39, 28));*/
 }
 
 code {
