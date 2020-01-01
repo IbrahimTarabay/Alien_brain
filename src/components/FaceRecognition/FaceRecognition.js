@@ -2,9 +2,7 @@ import React from 'react';
 import './FaceRecognition.css';
 
 const FaceRecognition = ({ imageUrl,box }) => {
-
-  return (
-    
+  return (  
     <div className='center ma'>
     <div className='absolute mt2'>
     <img id='inputimage' alt='' src= { imageUrl } width='400px' height='400'/>   
@@ -12,10 +10,7 @@ const FaceRecognition = ({ imageUrl,box }) => {
     </div>
     </div> 
     </div>
-
-
   	);
 }
-
 
 export default FaceRecognition;

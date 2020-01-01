@@ -1,7 +1,6 @@
 import React from 'react';
 
  class Register extends React.Component {
-
 	  constructor(props) {
 	  	super(props);
 	  	this.state = {
@@ -38,18 +37,16 @@ import React from 'react';
 		  			this.props.loadUser(user)
 		          this.props.onRouteChange('home');
 		  		}
-		  	})
-		 	
+		  	}) 	
 		  }
 
- render(){
- 	
+ render(){	
    return (  
     <article className="br3 ba b--white-30 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">   
 	<main className="pa4 white-80">
 	  <div className="measure">
 	    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-	      <legend className="f2 fw6 ph0 mh0">Register</legend>
+	      <legend className="f1 fw6 ph0 mh0">Register</legend>
 	      <div className="mt3">
 	        <label className="db fw6 lh-copy f5" htmlFor="name">Name</label>
 	        <input className="pa2 input-reset ba b--white-10 bg-transparent hover-bg-transparent hover-white w-100"
@@ -89,7 +86,6 @@ import React from 'react';
 	  </div>
 	</main>
 	</article>
-
   	);
   }
 }

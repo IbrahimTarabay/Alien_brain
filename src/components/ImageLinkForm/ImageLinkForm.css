@@ -1,5 +1,4 @@
 .form{
-
    width: 700px;
    background:
     radial-gradient(black 3px, transparent 4px),
@@ -10,5 +9,4 @@
     #fff;
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-
 }
