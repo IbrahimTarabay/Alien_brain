@@ -1,5 +1,6 @@
 {
-  "name": "face_recognition_brain",
+  "name": "Alien_brain",
+  "homepage": "https://ibrahimtarabay.github.io/Alien_brain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
