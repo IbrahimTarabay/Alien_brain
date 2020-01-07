@@ -105,7 +105,7 @@ class App extends Component {
    const {input,user} = this.state;
 
     this.setState({imageUrl: input});
-      fetch('https://mysterious-anchorage-73792.herokuapp.com/imageurl',{
+      fetch('https://nameless-earth-03891.herokuapp.com/imageurl',{
         method: 'post',
         headers: {'Content-Type':'application/json'},
         body:JSON.stringify({
@@ -115,7 +115,7 @@ class App extends Component {
         .then(response => response.json())
     		.then(response => {
           if (response) {
-            fetch('https://mysterious-anchorage-73792.herokuapp.com/image',{
+            fetch('https://nameless-earth-03891.herokuapp.com/image',{
               method: 'put',
               headers: {'Content-Type':'application/json'},
               body:JSON.stringify({

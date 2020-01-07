@@ -1,15 +1,11 @@
 import React from 'react';
 
 const Rank = ({name,entries}) => {
-
-  return (
-        
+  return (   
       <div className='white f3 ml4'>
         Your Rank:{entries}
-      </div>
-      
+      </div> 
   	);
 }
-
 
 export default Rank;

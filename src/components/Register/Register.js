@@ -22,7 +22,7 @@ import React from 'react';
 	  }
 
 		onSubmitSignIn = () => {
-		  	fetch('https://mysterious-anchorage-73792.herokuapp.com/register',{
+		  	fetch('https://nameless-earth-03891.herokuapp.com/register',{
 		  		method: 'post',
 		  		headers: {'Content-Type':'application/json'},
 		  		body:JSON.stringify({
@@ -32,7 +32,7 @@ import React from 'react';
 		  		})
 		  	})
 		  	.then(response => response.json())
-		  	.then(user => {
+		  	.then(user => {//becasue server return user
 		  		if(user.id){
 		  			this.props.loadUser(user)
 		          this.props.onRouteChange('home');
