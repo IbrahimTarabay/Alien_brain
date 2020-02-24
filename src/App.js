@@ -67,7 +67,7 @@ class App extends Component {
         rightCol: width - (clarifaiFace.right_col * width),
         bottomRow: height - (clarifaiFace.bottom_row * height)
        }
-	}
+     }
 
  calculateDemographics = (data) =>{
     /*Demographics predictions*/
@@ -90,28 +90,28 @@ class App extends Component {
  }
 
 	displayFaceBox = (box) => {
-		this.setState({box: box});
+	   this.setState({box: box});
 	}
 
-  displayResults = (results) => {
-    this.setState({results:results});
-  }
+        displayResults = (results) => {
+           this.setState({results:results});
+        }
 
 	onInputChange = (event) => {      
-    this.setState({input:event.target.value});
+          this.setState({input:event.target.value});
 	}
 
-	onButtonSubmit = () =>{
-   const {input,user} = this.state;
+      onButtonSubmit = () =>{
+        const {input,user} = this.state;
 
-    this.setState({imageUrl: input});
-      fetch('https://nameless-earth-03891.herokuapp.com/imageurl',{
-        method: 'post',
-        headers: {'Content-Type':'application/json'},
-        body:JSON.stringify({
-        input:input
-        })
-      })
+        this.setState({imageUrl: input});
+	fetch('https://nameless-earth-03891.herokuapp.com/imageurl',{
+	method: 'post',
+	headers: {'Content-Type':'application/json'},
+	body:JSON.stringify({
+	input:input
+	})
+	})
         .then(response => response.json())
     		.then(response => {
           if (response) {
@@ -142,7 +142,7 @@ class App extends Component {
    		this.setState({isSignedIn: true});
    	}
    	this.setState({route: route});
-   }
+     }
 
   render() {
     //Destructuring so we don't use this.state repeatedly
